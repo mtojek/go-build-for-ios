@@ -36,6 +36,8 @@ To build, sign the binary and deploy via SSH, run the following command:
 $ make deploy
 ```
 
+*Hint: please modify the network address of the target device*
+
 Execute the application over the SSH connection and verify using browser (you should have just exposed a simple fileserver):
 
 <img src="https://github.com/mtojek/go-build-for-ios/blob/master/screenshots/scr-2.png" width="640px" />

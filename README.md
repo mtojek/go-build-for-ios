@@ -7,6 +7,7 @@ Requirements:
 * iPhoneOS SDK installed with Xcode
 * Jailbreak on the target IOS device
 * OpenSSH running on the target.
+* jtool reachable via PATH
 
 I recommend to fork the project and adjust the ``Makefile`` to you current needs.
 

@@ -3,7 +3,7 @@ Build Go applications for IOS
 
 This repository contains a PoC that lets you build any Go application for IOS platform. Cross-compilation, tested using OSX (iPhoneOS SDK required) and 32-bit device (iPad 2).
 
-Requirements:
+**Requirements**:
 * iPhoneOS SDK installed with Xcode
 * Jailbreak on the target IOS device
 * OpenSSH running on the target.

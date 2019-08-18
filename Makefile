@@ -1,4 +1,4 @@
-PROJECT = github.com/mtojek/fileserver
+PROJECT ?= github.com/mtojek/fileserver # demo project
 
 sign: build
 	ARCH=arm jtool --sign --inplace --ent tools/ent.xml bin/application

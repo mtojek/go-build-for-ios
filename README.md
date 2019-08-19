@@ -11,6 +11,14 @@ This repository contains a PoC that lets you build any Go application for IOS pl
 
 I recommend to fork the project and adjust the ``Makefile`` to you current needs.
 
+**Disclaimer**:
+* *I do not take any responsibility if you crash your mobile device.*
+* There is a different project targetted for mobile devices. If you don't want to see how to build applications using standard Go SDK, most likely you'd like to use that [one](https://godoc.org/golang.org/x/mobile).
+* I didn't want to spend time diving deep into GoMobile project.
+* To better understand the building process and whole toolchain, I wanted to prepare a minimal set of scripts/wrappers to successfully build an app
+* I didn't have an intention to create a UI-based project, a background running process was also fine for me
+* Just had an old, unsupported iPad, wanted to see if it's not *a brick* yet ;)
+
 ## Getting started
 
 To build a sample project, [fileserver](https://github.com/mtojek/fileserver), please execute the following command:
